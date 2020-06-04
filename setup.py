@@ -9,7 +9,7 @@ README = (PATH / "README.md").read_text()
 
 setup(
     name = "google-datasetsearch-updates",
-    version = "0.0.1",
+    version = "0.1.0",
     author = "Jules Rostand",
     author_email = "jules.rostand@outlook.com",
     description = ("Enregistrer l'historique des mises à jour de base de données recensées sur le service Data Set Search de Google."),
@@ -24,4 +24,5 @@ setup(
     "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    install_requires= ['dicttoxml>=1.7.4', 'bs4>=0.0.1', 'beautifulsoup4>=4.9.1', 'selenium>=3.141.0', 'lxml>=4.5.1', 'requests>=2.23.0'],
 )

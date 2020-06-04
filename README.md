@@ -95,7 +95,5 @@ https://www.researchgate.net/publication/313656111_Alan_Turing_The_founder_of_co
 ## Installation
 
 1. Cloner le dépôt : `git clone ...`
-
 2. Se déplacer dans le répertoire du script : `cd google-datasetsearch-updates`
-
 3. Installer les dépendances avec pip : `pip3 install -r requirements.txt`

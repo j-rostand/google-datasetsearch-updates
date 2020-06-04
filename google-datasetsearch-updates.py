@@ -20,7 +20,7 @@ args = parser.parse_args()
 
 #### Scripts dédiés ###
 
-import query, save
+from scripts import query, save
 
 ### Bibliothèques ###
 
