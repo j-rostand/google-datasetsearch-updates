@@ -1,0 +1,9 @@
+beautifulsoup4>=4.9.1
+bs4>=0.0.1
+dicttoxml>=1.7.4
+lxml>=4.5.1
+progressbar2>=3.51.3
+requests>=2.23.0
+selenium>=3.141.0
+setuptools>=46.4.0
+pathlib>=1.0.1
