@@ -99,19 +99,3 @@ https://www.researchgate.net/publication/313656111_Alan_Turing_The_founder_of_co
 2. Se déplacer dans le répertoire du script : `cd google-datasetsearch-updates`
 
 3. Installer les dépendances avec pip : `pip3 install -r requirements.txt`
-
-## Utilisation
-
-1. Se déplacer vers le répertoire souhaité pour l'enregistrement du fichier XML : `cd mydirectory`
-
-2. Appel du script : `python3 google-datasetsearch-history.py`
-
-	1. Il faut alors indiquer le nom du fichier (sans l'extension XML)
-
-	2. S'il s'agit d'un nouveau fichier, il faut alors renseigner la requête souhaitée. 
-
-	3. Sélection manuelle de l'ensemble ou d'un sous-ensemble des résultats identifiés de la requête 
-
-3. Le script affiche le nombre de base de données mises à jour et se termine. 
-
-[^1]: Il est.
