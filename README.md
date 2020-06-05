@@ -30,6 +30,8 @@ Le script récupère tout d'abord, au sein du tag `<start></start>` du fichier X
 
 Le script récupère, pour chaque requête par mots-clés, l'identifiant unique `data-docid`, le titre, la source et la date de mise à jour de l'ensemble des bases de données dans la liste défilante à gauche de l'écran. Dans l'exemple évoqué ci-dessus, on obtient ainsi ces informations sur les 64 ensemble de données recensés.
 
+**Attention !** le script ne récupère pour l'instant que les 99 premiers résultats de chaque requête. 
+
 ### Écriture des entrées non-présentes dans le fichier XML lors des requêtes précédentes 
 
 Le scirpt considère ensuite la différence entre la liste des identifiants uniques obtenus pour l'ensemble des requêtes et la liste des identifiants uniques recensées dans le fichier XML. Pour chacun des identifiants uniques non-présents dans le fichier XML, le script ajoute une entrée au sein du tag `<database></database>`. Après avoir interrogé à nouveau le moteur de recherche à partir de cet identifiant, le script adjoint à ce tag les métadonnées complètes, décrites dans la partie droite de l'écran. Cette opération, longue, n'est effectuée qu'une seule fois, lors de l'ajout de l'identifiant unique au fichier XML. Dans l'exemple ci-dessous, les métadonnées de la première entrée sont décrites dans ce fichier de la manière suivante : 

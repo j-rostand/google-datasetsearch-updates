@@ -118,17 +118,25 @@ def quick_query(keyword):
     profile.set_preference('intl.accept_languages', 'en-US, en')
     driver = webdriver.Firefox(firefox_profile=profile)
     driver.get("https://datasetsearch.research.google.com/search?query="+ str(keyword))
-    
+
     results = driver.find_element_by_css_selector('ol.VAt4')
 
     res = {}
+
+    ### Scroll ###
+
+    # TO DO : Faire afficher l'ensemble des résultats et non pas les seuls 99 premières base de données
+    # Éléments de réponse : https://stackoverflow.com/a/48731548
 
     ### Informations basiques ###
 
     query_elems = results.find_elements_by_css_selector("li.UnWQ5")
 
     del query_elems[-1]
-    
+
+    if len(query_elems) > 100:
+        print("! Seul les 99 premières base de données seront intégrées au suivi de l'historique.")
+
     for query_elem in query_elems:
 
         data = {}
