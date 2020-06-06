@@ -99,3 +99,7 @@ https://www.researchgate.net/publication/313656111_Alan_Turing_The_founder_of_co
 1. Cloner le dépôt : `git clone ...`
 2. Se déplacer dans le répertoire du script : `cd google-datasetsearch-updates`
 3. Installer les dépendances avec pip : `pip3 install -r requirements.txt`
+
+## Mentions légales
+
+[Un commentaire sur le blog de Google](https://support.google.com/webmasters/thread/8816828?hl=en&msgid=9515101) semble indiquer que la requête automatisée sur Google Dataset Search contreviendrait aux conditions de service de l'entreprise. Au-delà de l'ironie de la situation, qui voit Google, dont les robots parcourent le Web toute la journée, interdire aux autres utilisateurs de faire de même pour ses services, cette restriction est représentative des enjeux de la maîtrise des systèmes d'indexation à l'ère numérique. Bien que dénoncant cette potentielle restriction d'utilisation, le(s) auteur(s) de ce programme ne saurai(en)t quoi qu'il en soit être tenu responsable de l'exécution par des tiers de requêtes automatisées sur Google Dataset Search.
